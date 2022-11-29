@@ -2,7 +2,13 @@
 
 .example {
     color: #fff;
-    text-align: center;   
+    text-align: justify;   
+}
+
+.example::after {
+   content: ""; 
+   display: inline-block;
+   width: 100%;
 }
 
 .example-item {
